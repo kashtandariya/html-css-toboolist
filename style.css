@@ -73,3 +73,45 @@ ul {
     border-radius: 70%;
     padding: 2px;
 }
+
+.editorial {
+    background-color: lightblue;
+    border: 1px solid;
+    border-radius: 40%;
+    padding: 10px 15px;
+}
+
+.goals {
+    background-color: purple;
+    border: 1px solid;
+    border-radius: 40%;
+    padding: 10px 15px;
+}
+
+.recruiting {
+    background-color: green;
+    border: 1px solid;
+    border-radius: 40%;
+    padding: 10px 15px;
+}
+
+.mobile {
+    background-color: yellow;
+    border: 1px solid;
+    border-radius: 40%;
+    padding: 10px 15px;
+}
+
+.website {
+    background-color: pink;
+    border: 1px solid;
+    border-radius: 40%;
+    padding: 10px 15px;
+}
+
+.sales {
+    background-color: yellowgreen;
+    border: 1px solid;
+    border-radius: 40%;
+    padding: 10px 15px;
+}
