@@ -18,6 +18,18 @@ header {
     padding: 30px 0
 }
 
+h3 {
+    display: inline-block;
+    border: 1px solid black;
+    border-radius: 10%;
+    padding: 5px;
+    margin-bottom: 20px;
+}
+
+.task {
+    background-color: rgb(29, 60, 235);
+    border-color: rgb(29, 60, 235);
+}
 /* aggiungi sempre una max-width e se la tabella è centrata metti margin 0 auto */
 .container {
     max-width: 800px;
@@ -28,6 +40,10 @@ ul > li {
     vertical-align: middle;
 }
 
+ul {
+    margin-bottom: 20px;
+}
+
 span {
     margin-right: 10px;
 }
@@ -35,8 +51,6 @@ span {
 .arrow {
     height: 2px;
     width: 2px;
-    font-size: 1em;
-    font-weight: initial;
 }
 
 .checkmark {
