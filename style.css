@@ -24,17 +24,30 @@ header {
     margin-left: 300px;
 }
 
+ul > li {
+    vertical-align: middle;
+}
+
 span {
-    padding: 0 auto;
+    margin-right: 10px;
+}
+
+.arrow {
+    height: 2px;
+    width: 2px;
+    font-size: 1em;
+    font-weight: initial;
 }
 
 .checkmark {
     color: #0fc919;
-    border: 1px solid #0fc919;   
+    border-color: #0fc919;  
+    border-style: solid; 
+    border-width: 1px;
     border-radius: 50%;
-    justify-content: center;
+    ;
 }
 
-ul > li {
-    vertical-align: middle;
+.cross {
+    color: red;
 }
