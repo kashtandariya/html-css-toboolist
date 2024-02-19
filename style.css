@@ -54,64 +54,59 @@ ul {
     font-size: 15px;
 }
 
-.checkmark {
+.icon {
+    border: 1px solid currentColor;
+    border-radius: 50%;
+    display: inline-block;
     font-size: 12px;
-    color: #0fc919;
-    border-color: #0fc919;  
-    border-style: solid; 
-    border-width: 1px;
-    border-radius: 70%;
+    height: 25px;
+    width: 25px;
     padding: 2px;
+    line-height: 18px;
+    text-align: center;
+}
+
+.checkmark {
+    color: green;
 }
 
 .cross {
-    font-size: 12px;
     color: #c9250fe8;
-    border-color: #c9250fe8;  
-    border-style: solid; 
-    border-width: 1px;
-    border-radius: 70%;
-    padding: 2px;
+}
+
+.label {
+    border-radius: 45px;
+    display: inline-block;
+    width: auto;
+    height: auto;
 }
 
 .editorial {
     background-color: lightblue;
-    border: 1px solid;
-    border-radius: 40%;
     padding: 10px 15px;
 }
 
 .goals {
     background-color: purple;
-    border: 1px solid;
-    border-radius: 40%;
     padding: 10px 15px;
 }
 
 .recruiting {
     background-color: green;
-    border: 1px solid;
-    border-radius: 40%;
     padding: 10px 15px;
 }
 
 .mobile {
     background-color: yellow;
-    border: 1px solid;
-    border-radius: 40%;
     padding: 10px 15px;
 }
 
 .website {
     background-color: pink;
-    border: 1px solid;
-    border-radius: 40%;
     padding: 10px 15px;
 }
 
 .sales {
     background-color: yellowgreen;
-    border: 1px solid;
-    border-radius: 40%;
     padding: 10px 15px;
 }
